@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL = "http://localhost:8080";
+const URL = "https://whatsapp-zqcd.onrender.com/";
 export const adduser = async (data) => {
   try {
     await axios.post(`${URL}/add`, data);
